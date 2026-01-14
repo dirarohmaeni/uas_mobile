@@ -153,13 +153,14 @@ Wireframe, Mockup, UI, dan Storyboard tersedia pada folder dokumentasi proyek.
 ---
 
 ### 👨‍💻 Tim / Pengembang
-
+```
 Nama Aplikasi: SEHATIN
 Nama: Dira Rohmaeni
 NIM: 312410465
 Kelas: TI.24.A5
 Dosen Pengampu : Donny Maulana, S.Kom., M.M.S.I.
 Tahun: 2026
+```
 
 ---
 
