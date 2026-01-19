@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_gravity="center"
+    android:padding="18dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <!-- icon clock -->
+        <ImageView
+            android:id="@+id/iv_alert_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/alert_alarm"
+            android:contentDescription="@drawable/alert_alarm"
+            android:adjustViewBounds="true"
+            app:tint="#2E5E4E"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- header (time + medicines) -->
+        <TextView
+            android:id="@+id/tv_alert_line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_line1"
+            android:textColor="#2E5E4E"
+            android:textSize="14sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_alert_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_title"
+            android:textColor="#2E5E4E"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="6dp"
+            android:lineSpacingExtra="2dp"/>
+
+        <!-- action button -->
+        <Button
+            android:id="@+id/btn_sudah_minum"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:background="@drawable/sudah"
+            android:text="@string/sudah_diminum"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="12dp"
+            tools:ignore="HardcodedText" />
+        <!-- tools:ignore hanya untuk IDE jika tetap ingin override, boleh dihapus -->
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

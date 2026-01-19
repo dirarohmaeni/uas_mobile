@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="next">LANJUT</string>
+    <string name="first_fragment_message">Halo fragment pertama</string>
+
+    <string name="previous">KEMBALI</string>
+    <string name="second_fragment_message">Ini adalah fragment kedua</string>
+
+    <!-- App -->
+    <string name="app_name">SEHATIN</string>
+    <string name="app_tagline">“Minum obat tepat waktu, hidup lebih baik.”</string>
+    <string name="app_logo_desc">Logo aplikasi Sehatin</string>
+
+    <string name="detecting_location">Mencoba mendeteksi lokasi...</string>
+
+    <!-- Country -->
+    <string name="country_usa">UNITED STATES</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_full">WELCOME TO HEALTH APP</string>
+
+    <!-- Buttons -->
+    <string name="refresh_location">Refresh Lokasi</string>
+
+    <!-- Location -->
+    <string name="country_indonesia">INDONESIA</string>
+    <string name="flag_icon_desc">Flag Indonesia</string>
+
+    <!-- Header -->
+    <string name="schedule_title">JADWAL MINUM OBAT</string>
+
+    <!-- Schedule Items -->
+    <string name="medicine_paracetamol_morning">Paracetamol 08.00 Pagi</string>
+    <string name="medicine_vitamin_c_noon">Vitamin C 12.00 Siang</string>
+    <string name="medicine_amoxicillin_night">Amoxicillin 20.00 Malam</string>
+
+    <string name="after_meal">Setelah makan</string>
+
+    <!-- Button -->
+    <string name="add_medicine">TAMBAH OBAT</string>
+
+    <string name="title_add_medicine">TAMBAH OBAT</string>
+
+    <string name="label_medicine_name">Nama Obat</string>
+    <string name="label_medicine_time">Waktu Minum</string>
+    <string name="label_note">Catatan</string>
+
+    <string name="hint_medicine_name">Masukkan nama obat</string>
+    <string name="hint_medicine_time">Pilih waktu minum</string>
+    <string name="hint_note">Contoh: Setelah makan</string>
+
+    <string name="button_save">SIMPAN</string>
+
+    <!-- Detail Screen -->
+    <string name="detail_title">DETAIL OBAT</string>
+
+    <string name="detail_medicine_name">Antibiotik</string>
+
+    <string name="detail_time_label">Waktu minum:</string>
+    <string name="detail_time_value">08.00 WIB</string>
+
+    <string name="detail_note_label">Catatan:</string>
+    <string name="detail_note_value">Setelah makan</string>
+
+    <!-- Dialog -->
+    <string name="dialog_delete_title">Hapus Jadwal</string>
+    <string name="dialog_delete_message">Hapus jadwal "%1$s"?</string>
+
+    <!-- Common -->
+    <string name="cancel">Batal</string>
+    <string name="delete">Hapus</string>
+
+    <!-- Toast -->
+    <string name="toast_deleted">Jadwal dihapus</string>
+
+    <!-- Alert Card -->
+    <string name="alert_line1">Waktunya Minum Obat</string>
+    <string name="alert_title">Pukul 08:00 • 2 Obat</string>
+
+    <!-- Button -->
+    <string name="sudah_diminum">Sudah Diminum</string>
+
+
+</resources>

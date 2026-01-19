@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme utama aplikasi (MaterialComponents) -->
+    <style name="Theme.PengingatObat" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- warna dasar app -->
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/green_accent</item>
+
+        <!-- status bar / navbar default -->
+        <item name="android:statusBarColor">@color/green_dark</item>
+        <item name="android:navigationBarColor">@color/bg_light_green</item>
+    </style>
+
+    <!-- Theme khusus untuk Splash (bisa membuat status bar senada) -->
+    <style name="Theme.PengingatObat.Splash" parent="Theme.PengingatObat">
+        <item name="android:statusBarColor">@color/bg_light_green</item>
+        <item name="android:navigationBarColor">@color/bg_light_green</item>
+        <!-- jika ingin fullscreen remove action bar -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
+

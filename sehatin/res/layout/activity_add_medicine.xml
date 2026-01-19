@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAFBF1"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- HEADER -->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_add_medicine"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2E5E4E"
+            android:fontFamily="serif"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="50dp" />
+
+        <!-- LABEL NAMA -->
+        <TextView
+            android:id="@+id/label_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_medicine_name"
+            android:textColor="#6B7B6B"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="6dp"
+            android:labelFor="@id/input_name" />
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:background="@drawable/catatan"
+            android:padding="12dp"
+            android:textColor="#2E5E4E"
+            android:textSize="16sp"
+            android:inputType="textPersonName"
+            android:hint="@string/hint_medicine_name" />
+
+        <!-- LABEL WAKTU -->
+        <TextView
+            android:id="@+id/label_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_medicine_time"
+            android:textColor="#6B7B6B"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="6dp"
+            android:labelFor="@id/input_time" />
+
+        <EditText
+            android:id="@+id/input_time"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:background="@drawable/catatan"
+            android:padding="12dp"
+            android:textColor="#2E5E4E"
+            android:textSize="16sp"
+            android:inputType="none"
+            android:hint="@string/hint_medicine_time"
+            android:focusable="true"
+            android:clickable="true" />
+
+        <!-- LABEL CATATAN -->
+        <TextView
+            android:id="@+id/label_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_note"
+            android:textColor="#6B7B6B"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="6dp"
+            android:labelFor="@id/input_note" />
+
+        <EditText
+            android:id="@+id/input_note"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:background="@drawable/catatan2"
+            android:padding="12dp"
+            android:textColor="#2E5E4E"
+            android:textSize="16sp"
+            android:gravity="top"
+            android:hint="@string/hint_note"
+            android:inputType="textMultiLine" />
+
+        <!-- BUTTON -->
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="201dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="58dp"
+            android:background="@drawable/simpan"
+            android:text="@string/button_save"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAFBF1"
+    tools:context=".SplashActivity">
+
+    <!-- Logo circle with icon -->
+    <FrameLayout
+        android:id="@+id/logo_circle"
+        android:layout_width="301dp"
+        android:layout_height="282dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/logo_background"
+        android:padding="22dp">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="281dp"
+            android:layout_height="281dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:adjustViewBounds="true" />
+    </FrameLayout>
+
+    <!-- SEHATIN title -->
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEHATIN"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="#2E5E4E"
+        android:layout_marginTop="28dp"
+        android:layout_below="@id/logo_circle"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/tv_tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="“Minum obat tepat waktu, hidup lebih baik.”"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:textColor="#4A6E63"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/tv_app_name"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

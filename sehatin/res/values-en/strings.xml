@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="next">NEXT</string>
+    <string name="first_fragment_message">Hello first fragment</string>
+
+    <string name="previous">PREVIOUS</string>
+    <string name="second_fragment_message">This is the second fragment</string>
+
+    <!-- App -->
+    <string name="app_name">SEHATIN</string>
+    <string name="app_tagline">“Take medicine on time, live better.”</string>
+    <string name="app_logo_desc">Sehatin app logo</string>
+
+    <!-- Location -->
+    <string name="detecting_location">Detecting location...</string>
+
+    <!-- Country -->
+    <string name="country_usa">UNITED STATES</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_full">WELCOME TO HEALTH APP</string>
+
+    <!-- Buttons -->
+    <string name="refresh_location">Refresh Location</string>
+
+    <!-- Location -->
+    <string name="country_indonesia">INDONESIA</string>
+    <string name="flag_icon_desc">Indonesia Flag</string>
+
+    <!-- Header -->
+    <string name="schedule_title">MEDICATION SCHEDULE</string>
+
+    <!-- Schedule Items -->
+    <string name="medicine_paracetamol_morning">Paracetamol 08:00 AM</string>
+    <string name="medicine_vitamin_c_noon">Vitamin C 12:00 PM</string>
+    <string name="medicine_amoxicillin_night">Amoxicillin 08:00 PM</string>
+
+    <string name="after_meal">After meal</string>
+
+    <!-- Button -->
+    <string name="add_medicine">ADD MEDICINE</string>
+
+    <string name="title_add_medicine">ADD MEDICINE</string>
+
+    <string name="label_medicine_name">Medicine Name</string>
+    <string name="label_medicine_time">Time</string>
+    <string name="label_note">Notes</string>
+
+    <string name="hint_medicine_name">Enter medicine name</string>
+    <string name="hint_medicine_time">Select time</string>
+    <string name="hint_note">Example: After meal</string>
+
+    <string name="button_save">SAVE</string>
+
+    <!-- Detail Screen -->
+    <string name="detail_title">MEDICINE DETAILS</string>
+
+    <string name="detail_medicine_name">Antibiotic</string>
+
+    <string name="detail_time_label">Time:</string>
+    <string name="detail_time_value">08:00 AM</string>
+
+    <string name="detail_note_label">Notes:</string>
+    <string name="detail_note_value">After meal</string>
+
+
+    <!-- Dialog -->
+    <string name="dialog_delete_title">Delete Schedule</string>
+    <string name="dialog_delete_message">Delete schedule "%1$s"?</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+
+    <!-- Toast -->
+    <string name="toast_deleted">Schedule deleted</string>
+    <!-- Alert Card -->
+    <string name="alert_line1">Time to Take Your Medicine</string>
+    <string name="alert_title">08:00 AM • 2 Medications</string>
+
+    <!-- Button -->
+    <string name="sudah_diminum">Taken</string>
+
+</resources>
